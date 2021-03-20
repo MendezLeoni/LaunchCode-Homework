@@ -1,0 +1,22 @@
+def three(a,b):
+        
+    sumnum = a + b
+
+    diff = a - b
+
+    prod = a * b
+
+    if sumnum == 0:
+        print("a+b=zero")
+    else:
+        print("a+b=", sumnum)
+    
+    if diff == 0:
+        print("a-b=zero")
+    else:
+        print("a-b=", diff)
+    
+    if prod == 0:
+        print("a*b=zero")
+    else:
+        print("a*b=", prod)
